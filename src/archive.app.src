@@ -1,0 +1,12 @@
+{application, archive,
+ [
+  {description, "ARCHIVE"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { archive_app, []}},
+  {env, []}
+ ]}.
