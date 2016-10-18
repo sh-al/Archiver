@@ -15,9 +15,6 @@
 
 
 %Pass1= base64:encode(?Pass),
-%
-%Path = /opt/portal/fs/u@u.xmpp2.feelinhome.ru/camName/XXXX_XXXX.asf.mp4
-%
 crypt(String)->
   Result = base64:encode(String),
   %lager:debug("crypt ~s~n", [Result]),
